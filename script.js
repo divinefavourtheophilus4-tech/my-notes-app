@@ -62,6 +62,12 @@ newNoteBtn.addEventListener("click", function () {
 
 // Delete a note
 function deleteNote(index) {
+    const confirmDelete = confirm("Are you sure you want to delete this note?");
+
+    if (!confirmDelete) {
+        return;
+    }
+
     notes.splice(index, 1);
 
     localStorage.setItem("notes", JSON.stringify(notes));
