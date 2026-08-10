@@ -107,3 +107,8 @@ searchInput.addEventListener("input", function () {
 
 // Display saved notes when the app opens
 displayNotes();
+class NoteHelper {
+    getAppName() {
+        return "My Notes";
+    }
+}
