@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    margin-bottom: 15px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+#newNoteBtn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#newNoteBtn:hover {
+    background-color: #555;
+}
+.note-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.note-card h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+.note-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.note-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.note-buttons button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.note-buttons button:hover {
+    opacity: 0.8;
+}
